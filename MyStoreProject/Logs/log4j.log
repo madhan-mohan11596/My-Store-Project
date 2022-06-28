@@ -1,0 +1,1620 @@
+2022-06-25 17:22:59 INFO  Log:22 - this is before suite method
+2022-06-25 17:23:00 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-25 17:23:00 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-25 17:23:00 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-25 17:23:00 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@46d63dbb
+2022-06-25 17:23:00 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-25 17:23:00 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-25 17:23:00 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-25 17:23:00 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-25 17:23:00 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-25 17:23:00 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-25 17:23:00 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-25 17:23:00 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-25 17:23:00 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-25 17:23:00 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-25 17:23:00 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-25 17:23:00 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-25 17:23:00 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-25 17:23:00 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-25 17:23:00 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-25 17:23:00 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-25 17:23:00 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-25 17:23:00 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-25 17:23:00 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-25 17:23:00 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-25 17:23:00 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-25 17:23:00 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-25 17:23:00 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-25 17:23:00 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-25 17:23:00 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-25 17:23:00 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-25 17:23:00 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-25 17:23:00 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-25 17:23:00 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-25 17:23:00 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-25 17:23:00 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-25 17:23:00 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-25 17:23:00 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-25 17:23:01 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-25 17:23:01 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-25 17:23:01 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-25 17:23:01 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-25 17:23:01 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-25 17:23:01 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-25 17:23:01 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-25 17:23:01 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-25 17:23:10 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 5220 (auto-detected)
+2022-06-25 17:23:10 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-25 17:23:10 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-25 17:23:10 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-25 17:23:10 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-25 17:23:10 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-25 17:23:10 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-25 17:23:10 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-25 17:23:10 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@2299c836
+2022-06-25 17:23:10 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-25 17:23:10 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-25 17:23:10 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-25 17:23:10 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-25 17:23:19 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-25 17:23:19 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xc12629dab1582844
+2022-06-25 17:26:03 INFO  Log:22 - this is before suite method
+2022-06-25 17:26:04 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-25 17:26:04 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-25 17:26:04 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-25 17:26:04 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3d278b4d
+2022-06-25 17:26:04 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-25 17:26:04 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-25 17:26:04 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-25 17:26:04 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-25 17:26:04 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-25 17:26:04 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-25 17:26:04 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-25 17:26:04 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-25 17:26:04 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-25 17:26:04 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-25 17:26:04 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-25 17:26:04 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-25 17:26:04 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-25 17:26:04 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-25 17:26:04 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-25 17:26:04 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-25 17:26:04 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-25 17:26:04 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-25 17:26:04 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-25 17:26:04 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-25 17:26:04 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-25 17:26:04 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-25 17:26:04 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-25 17:26:04 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-25 17:26:04 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-25 17:26:04 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-25 17:26:04 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-25 17:26:04 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-25 17:26:04 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-25 17:26:04 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-25 17:26:06 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 19412 (auto-detected)
+2022-06-25 17:26:06 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-25 17:26:06 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-25 17:26:06 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-25 17:26:06 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-25 17:26:06 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-25 17:26:06 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-25 17:26:06 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-25 17:26:06 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4ee86ce
+2022-06-25 17:26:06 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-25 17:26:06 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-25 17:26:06 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-25 17:26:06 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-25 17:26:11 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-25 17:26:11 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x5bebee01616b3e4e
+2022-06-25 17:26:20 INFO  Log:11 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST START=========================================
+2022-06-25 17:26:20 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:26:29 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:26:29 INFO  Log:22 - selects the product needed
+2022-06-25 17:26:33 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 17:26:33 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 17:26:33 INFO  Log:22 - quantity entered
+2022-06-25 17:26:33 INFO  Log:22 - enters size
+2022-06-25 17:26:34 INFO  Log:22 - size entered
+2022-06-25 17:26:34 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:26:36 INFO  Log:22 - added to cart
+2022-06-25 17:26:36 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:26:38 INFO  Log:22 - order page opened 
+2022-06-25 17:26:38 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:26:41 INFO  Log:22 - login page opened
+2022-06-25 17:26:41 INFO  Log:22 -  enters the  email of new customer
+2022-06-25 17:26:41 INFO  Log:22 -  accountCreationPage opened 
+2022-06-25 17:26:41 INFO  Log:22 - validating the accountCreationPage 
+2022-06-25 17:26:43 INFO  Log:22 - Succsssfully landed into account detils 
+2022-06-25 17:26:43 INFO  Log:22 - enters all details of new customer 
+2022-06-25 17:27:32 INFO  Log:22 -  addressPage opened after successful registration of new customer
+2022-06-25 17:27:32 INFO  Log:15 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST END=========================================
+2022-06-25 17:27:50 INFO  Log:11 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST START=========================================
+2022-06-25 17:27:50 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:27:58 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:27:58 INFO  Log:22 - selects the product needed
+2022-06-25 17:28:03 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 17:28:03 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 17:28:03 INFO  Log:22 - quantity entered
+2022-06-25 17:28:03 INFO  Log:22 - enters size
+2022-06-25 17:28:03 INFO  Log:22 - size entered
+2022-06-25 17:28:03 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:28:05 INFO  Log:22 - added to cart
+2022-06-25 17:28:05 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:28:08 INFO  Log:22 - order page opened 
+2022-06-25 17:28:08 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:28:11 INFO  Log:22 - login page opened
+2022-06-25 17:28:11 INFO  Log:22 -  enters the  email of new customer
+2022-06-25 17:28:12 INFO  Log:22 -  accountCreationPage opened 
+2022-06-25 17:28:12 INFO  Log:22 - validating the accountCreationPage 
+2022-06-25 17:28:15 INFO  Log:22 - Succsssfully landed into account detils 
+2022-06-25 17:28:15 INFO  Log:22 - enters all details of new customer 
+2022-06-25 17:29:05 INFO  Log:22 -  addressPage opened after successful registration of new customer
+2022-06-25 17:29:05 INFO  Log:15 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST END=========================================
+2022-06-25 17:29:19 INFO  Log:11 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST START=========================================
+2022-06-25 17:29:19 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:29:42 INFO  Log:11 - ================================::>>  createAccountTest  <<::  TEST START=========================================
+2022-06-25 17:29:42 INFO  Log:22 - clicks on sign in of index page
+2022-06-25 17:29:52 INFO  Log:22 - login page opened
+2022-06-25 17:29:52 INFO  Log:22 -  enters the  email of new customer
+2022-06-25 17:29:52 INFO  Log:22 -  accountCreationPage opened 
+2022-06-25 17:29:52 INFO  Log:22 - validating the accountCreationPage 
+2022-06-25 17:29:57 INFO  Log:22 - Succsssfully landed into account detils 
+2022-06-25 17:29:57 INFO  Log:22 - enters all details of new customer 
+2022-06-25 17:29:59 INFO  Log:22 -  homePage opened after successful registration of new customer
+2022-06-25 17:29:59 INFO  Log:15 - ================================::>>  createAccountTest  <<::  TEST END=========================================
+2022-06-25 17:46:28 INFO  Log:22 - this is before suite method
+2022-06-25 17:46:29 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-25 17:46:29 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-25 17:46:29 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-25 17:46:29 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7f9e1534
+2022-06-25 17:46:29 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-25 17:46:29 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-25 17:46:29 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-25 17:46:29 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-25 17:46:29 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-25 17:46:29 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-25 17:46:29 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-25 17:46:29 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-25 17:46:29 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-25 17:46:29 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-25 17:46:29 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-25 17:46:29 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-25 17:46:29 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-25 17:46:29 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-25 17:46:29 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-25 17:46:29 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-25 17:46:29 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-25 17:46:29 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-25 17:46:29 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-25 17:46:29 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-25 17:46:29 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-25 17:46:29 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-25 17:46:29 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-25 17:46:29 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-25 17:46:29 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-25 17:46:29 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-25 17:46:29 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-25 17:46:29 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-25 17:46:29 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-25 17:46:29 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-25 17:46:31 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 16536 (auto-detected)
+2022-06-25 17:46:31 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-25 17:46:31 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-25 17:46:31 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-25 17:46:31 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-25 17:46:31 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-25 17:46:31 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-25 17:46:31 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-25 17:46:31 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3b75ed
+2022-06-25 17:46:31 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-25 17:46:31 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-25 17:46:31 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-25 17:46:31 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-25 17:46:32 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-25 17:46:32 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x3ae87ac2b5270df3
+2022-06-25 17:46:46 INFO  Log:11 - ================================::>>  verifyTitle  <<::  TEST START=========================================
+2022-06-25 17:46:46 INFO  Log:22 - Index page opened
+2022-06-25 17:46:46 INFO  Log:22 - validating the whether Title displayed correct or wrong 
+2022-06-25 17:46:46 INFO  Log:22 - Title displayed correctly
+2022-06-25 17:46:46 INFO  Log:15 - ================================::>>  verifyTitle  <<::  TEST END=========================================
+2022-06-25 17:46:55 INFO  Log:11 - ================================::>>  verifylogo  <<::  TEST START=========================================
+2022-06-25 17:46:55 INFO  Log:22 - Index page opened
+2022-06-25 17:46:55 INFO  Log:22 - validating the whether MyStoreLogo displayed or not 
+2022-06-25 17:46:55 INFO  Log:22 - MyStoreLogo displayed 
+2022-06-25 17:46:55 INFO  Log:15 - ================================::>>  verifylogo  <<::  TEST END=========================================
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2022-06-25 17:46:56 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2022-06-25 17:46:56 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2022-06-25 17:46:56 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2022-06-25 17:46:56 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2022-06-25 17:51:24 INFO  Log:22 - this is before suite method
+2022-06-25 17:51:25 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-25 17:51:25 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-25 17:51:25 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-25 17:51:25 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@1108adc8
+2022-06-25 17:51:25 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-25 17:51:25 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-25 17:51:25 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-25 17:51:25 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-25 17:51:25 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-25 17:51:25 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-25 17:51:25 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-25 17:51:25 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-25 17:51:25 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-25 17:51:25 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-25 17:51:25 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-25 17:51:25 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-25 17:51:25 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-25 17:51:25 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-25 17:51:25 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-25 17:51:25 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-25 17:51:25 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-25 17:51:25 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-25 17:51:25 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-25 17:51:25 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-25 17:51:25 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-25 17:51:25 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-25 17:51:25 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-25 17:51:26 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-25 17:51:26 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-25 17:51:26 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-25 17:51:26 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-25 17:51:26 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-25 17:51:26 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-25 17:51:26 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-25 17:51:27 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 8216 (auto-detected)
+2022-06-25 17:51:27 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-25 17:51:27 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-25 17:51:27 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-25 17:51:27 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-25 17:51:27 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-25 17:51:28 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-25 17:51:28 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-25 17:51:28 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@78290bf5
+2022-06-25 17:51:28 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-25 17:51:28 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-25 17:51:28 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-25 17:51:28 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-25 17:51:29 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-25 17:51:29 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x90a9a0beb9c1288e
+2022-06-25 17:51:42 INFO  Log:11 - ================================::>>  verifylogin  <<::  TEST START=========================================
+2022-06-25 17:51:42 INFO  Log:22 - clicks on signin of index page
+2022-06-25 17:51:50 INFO  Log:22 - login page opened
+2022-06-25 17:51:50 INFO  Log:22 - enters the username and password 
+2022-06-25 17:51:50 INFO  Log:22 - clicks on login button 
+2022-06-25 17:51:54 INFO  Log:22 - validating the whether login is success or not 
+2022-06-25 17:51:54 INFO  Log:22 -  sucessfully logged in and navigated to Home page
+2022-06-25 17:51:54 INFO  Log:15 - ================================::>>  verifylogin  <<::  TEST END=========================================
+2022-06-25 17:52:11 INFO  Log:11 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST START=========================================
+2022-06-25 17:52:11 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:52:14 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:52:14 INFO  Log:22 - selects the product needed
+2022-06-25 17:52:17 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 17:52:17 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 17:52:17 INFO  Log:22 - quantity entered
+2022-06-25 17:52:17 INFO  Log:22 - enters size
+2022-06-25 17:52:17 INFO  Log:22 - size entered
+2022-06-25 17:52:17 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:52:20 INFO  Log:22 - added to cart
+2022-06-25 17:52:20 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:52:25 INFO  Log:22 - order page opened 
+2022-06-25 17:52:25 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:52:29 INFO  Log:22 - login page opened
+2022-06-25 17:52:29 INFO  Log:22 -  enters the  email of new customer
+2022-06-25 17:52:29 INFO  Log:22 -  accountCreationPage opened 
+2022-06-25 17:52:29 INFO  Log:22 - validating the accountCreationPage 
+2022-06-25 17:52:50 INFO  Log:11 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST START=========================================
+2022-06-25 17:52:50 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:52:55 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:52:55 INFO  Log:22 - selects the product needed
+2022-06-25 17:52:59 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 17:52:59 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 17:52:59 INFO  Log:22 - quantity entered
+2022-06-25 17:52:59 INFO  Log:22 - enters size
+2022-06-25 17:52:59 INFO  Log:22 - size entered
+2022-06-25 17:52:59 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:53:01 INFO  Log:22 - added to cart
+2022-06-25 17:53:01 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:53:06 INFO  Log:22 - order page opened 
+2022-06-25 17:53:06 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:53:11 INFO  Log:22 - login page opened
+2022-06-25 17:53:11 INFO  Log:22 -  enters the  email of new customer
+2022-06-25 17:53:11 INFO  Log:22 -  accountCreationPage opened 
+2022-06-25 17:53:11 INFO  Log:22 - validating the accountCreationPage 
+2022-06-25 17:53:31 INFO  Log:11 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST START=========================================
+2022-06-25 17:53:31 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:53:35 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:53:35 INFO  Log:22 - selects the product needed
+2022-06-25 17:53:37 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 17:53:37 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 17:53:38 INFO  Log:22 - quantity entered
+2022-06-25 17:53:38 INFO  Log:22 - enters size
+2022-06-25 17:53:38 INFO  Log:22 - size entered
+2022-06-25 17:53:38 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:53:40 INFO  Log:22 - added to cart
+2022-06-25 17:53:40 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:53:43 INFO  Log:22 - order page opened 
+2022-06-25 17:53:43 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:53:48 INFO  Log:22 - login page opened
+2022-06-25 17:53:48 INFO  Log:22 -  enters the  email of new customer
+2022-06-25 17:53:48 INFO  Log:22 -  accountCreationPage opened 
+2022-06-25 17:53:48 INFO  Log:22 - validating the accountCreationPage 
+2022-06-25 17:53:50 INFO  Log:22 - Succsssfully landed into account detils 
+2022-06-25 17:53:50 INFO  Log:22 - enters all details of new customer 
+2022-06-25 17:54:40 INFO  Log:22 -  addressPage opened after successful registration of new customer
+2022-06-25 17:54:40 INFO  Log:15 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST END=========================================
+2022-06-25 17:54:51 INFO  Log:11 - ================================::>>  createAccountTest  <<::  TEST START=========================================
+2022-06-25 17:54:51 INFO  Log:22 - clicks on sign in of index page
+2022-06-25 17:54:58 INFO  Log:22 - login page opened
+2022-06-25 17:54:58 INFO  Log:22 -  enters the  email of new customer
+2022-06-25 17:54:58 INFO  Log:22 -  accountCreationPage opened 
+2022-06-25 17:54:58 INFO  Log:22 - validating the accountCreationPage 
+2022-06-25 17:55:02 INFO  Log:22 - Succsssfully landed into account detils 
+2022-06-25 17:55:02 INFO  Log:22 - enters all details of new customer 
+2022-06-25 17:55:08 INFO  Log:22 -  homePage opened after successful registration of new customer
+2022-06-25 17:55:08 INFO  Log:15 - ================================::>>  createAccountTest  <<::  TEST END=========================================
+2022-06-25 17:55:20 INFO  Log:11 - ================================::>>  AddtocartSucessTest  <<::  TEST START=========================================
+2022-06-25 17:55:20 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:55:28 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:55:28 INFO  Log:22 - selects the product needed
+2022-06-25 17:55:31 INFO  Log:22 - add to cart page opened with the selected product
+2022-06-25 17:55:31 INFO  Log:22 - enters quantity
+2022-06-25 17:55:31 INFO  Log:22 - quantity entered
+2022-06-25 17:55:31 INFO  Log:22 - enters size
+2022-06-25 17:55:31 INFO  Log:22 - size entered
+2022-06-25 17:55:31 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:55:36 INFO  Log:22 - validating the whether product added to cart or not 
+2022-06-25 17:55:36 INFO  Log:22 - product sucessfully added to cart
+2022-06-25 17:55:36 INFO  Log:15 - ================================::>>  AddtocartSucessTest  <<::  TEST END=========================================
+2022-06-25 17:55:45 INFO  Log:11 - ================================::>>  AddtocartSucessTest  <<::  TEST START=========================================
+2022-06-25 17:55:45 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:55:48 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:55:48 INFO  Log:22 - selects the product needed
+2022-06-25 17:55:53 INFO  Log:22 - add to cart page opened with the selected product
+2022-06-25 17:55:53 INFO  Log:22 - enters quantity
+2022-06-25 17:55:53 INFO  Log:22 - quantity entered
+2022-06-25 17:55:53 INFO  Log:22 - enters size
+2022-06-25 17:55:53 INFO  Log:22 - size entered
+2022-06-25 17:55:53 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:55:57 INFO  Log:22 - validating the whether product added to cart or not 
+2022-06-25 17:55:57 INFO  Log:22 - product sucessfully added to cart
+2022-06-25 17:55:57 INFO  Log:15 - ================================::>>  AddtocartSucessTest  <<::  TEST END=========================================
+2022-06-25 17:56:10 INFO  Log:11 - ================================::>>  AddtocartSucessTest  <<::  TEST START=========================================
+2022-06-25 17:56:10 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:56:15 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:56:15 INFO  Log:22 - selects the product needed
+2022-06-25 17:56:18 INFO  Log:22 - add to cart page opened with the selected product
+2022-06-25 17:56:18 INFO  Log:22 - enters quantity
+2022-06-25 17:56:18 INFO  Log:22 - quantity entered
+2022-06-25 17:56:18 INFO  Log:22 - enters size
+2022-06-25 17:56:18 INFO  Log:22 - size entered
+2022-06-25 17:56:18 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:56:19 INFO  Log:22 - validating the whether product added to cart or not 
+2022-06-25 17:56:19 INFO  Log:22 - product sucessfully added to cart
+2022-06-25 17:56:19 INFO  Log:15 - ================================::>>  AddtocartSucessTest  <<::  TEST END=========================================
+2022-06-25 17:56:30 INFO  Log:11 - ================================::>>  AddtocartTest  <<::  TEST START=========================================
+2022-06-25 17:56:30 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:56:34 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:56:34 INFO  Log:22 - selects the product needed
+2022-06-25 17:56:37 INFO  Log:22 - validating the whether add to cart page opened or not 
+2022-06-25 17:56:37 INFO  Log:22 - add to cart page opened with the selected product 
+2022-06-25 17:56:37 INFO  Log:15 - ================================::>>  AddtocartTest  <<::  TEST END=========================================
+2022-06-25 17:56:47 INFO  Log:11 - ================================::>>  AddtocartTest  <<::  TEST START=========================================
+2022-06-25 17:56:47 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:56:50 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:56:50 INFO  Log:22 - selects the product needed
+2022-06-25 17:56:53 INFO  Log:22 - validating the whether add to cart page opened or not 
+2022-06-25 17:56:53 INFO  Log:22 - add to cart page opened with the selected product 
+2022-06-25 17:56:53 INFO  Log:15 - ================================::>>  AddtocartTest  <<::  TEST END=========================================
+2022-06-25 17:57:05 INFO  Log:11 - ================================::>>  AddtocartTest  <<::  TEST START=========================================
+2022-06-25 17:57:05 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:57:08 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:57:08 INFO  Log:22 - selects the product needed
+2022-06-25 17:57:11 INFO  Log:22 - validating the whether add to cart page opened or not 
+2022-06-25 17:57:11 INFO  Log:22 - add to cart page opened with the selected product 
+2022-06-25 17:57:11 INFO  Log:15 - ================================::>>  AddtocartTest  <<::  TEST END=========================================
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2022-06-25 17:57:12 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:57:12 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:57:12 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:57:12 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:57:12 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:57:12 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:57:12 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:57:12 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:57:12 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:57:12 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2022-06-25 17:57:12 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2022-06-25 17:57:12 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2022-06-25 17:57:12 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2022-06-25 17:58:07 INFO  Log:22 - this is before suite method
+2022-06-25 17:58:08 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-25 17:58:08 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-25 17:58:08 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-25 17:58:08 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@33d53216
+2022-06-25 17:58:08 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-25 17:58:08 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-25 17:58:08 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-25 17:58:08 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-25 17:58:08 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-25 17:58:08 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-25 17:58:08 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-25 17:58:08 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-25 17:58:08 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-25 17:58:08 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-25 17:58:08 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-25 17:58:08 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-25 17:58:08 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-25 17:58:08 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-25 17:58:08 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-25 17:58:08 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-25 17:58:08 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-25 17:58:08 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-25 17:58:08 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-25 17:58:08 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-25 17:58:08 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-25 17:58:08 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-25 17:58:08 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-25 17:58:08 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-25 17:58:08 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-25 17:58:08 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-25 17:58:08 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-25 17:58:08 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-25 17:58:08 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-25 17:58:08 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-25 17:58:09 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 15044 (auto-detected)
+2022-06-25 17:58:09 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-25 17:58:09 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-25 17:58:09 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-25 17:58:09 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-25 17:58:09 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-25 17:58:09 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-25 17:58:09 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-25 17:58:09 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6471b250
+2022-06-25 17:58:09 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-25 17:58:09 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-25 17:58:09 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-25 17:58:09 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-25 17:58:11 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-25 17:58:12 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x5ceeaa65272d1bbc
+2022-06-25 17:58:18 INFO  Log:11 - ================================::>>  EndToEndTestForNewCustomers  <<::  TEST START=========================================
+2022-06-25 17:58:18 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:58:23 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:58:23 INFO  Log:22 - selects the product needed
+2022-06-25 17:58:28 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 17:58:28 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 17:58:28 INFO  Log:22 - quantity entered
+2022-06-25 17:58:28 INFO  Log:22 - enters size
+2022-06-25 17:58:29 INFO  Log:22 - size entered
+2022-06-25 17:58:29 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:58:30 INFO  Log:22 - added to cart
+2022-06-25 17:58:30 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:58:32 INFO  Log:22 - order page opened 
+2022-06-25 17:58:32 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:58:37 INFO  Log:22 - login page opened
+2022-06-25 17:58:37 INFO  Log:22 -  enters the  email of new customer
+2022-06-25 17:58:38 INFO  Log:22 -  accountCreationPage opened 
+2022-06-25 17:58:38 INFO  Log:22 - enters all details of new customer 
+2022-06-25 17:59:02 INFO  Log:11 - ================================::>>  EndToEndTestForNewCustomers  <<::  TEST START=========================================
+2022-06-25 17:59:02 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:59:06 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:59:06 INFO  Log:22 - selects the product needed
+2022-06-25 17:59:09 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 17:59:09 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 17:59:09 INFO  Log:22 - quantity entered
+2022-06-25 17:59:09 INFO  Log:22 - enters size
+2022-06-25 17:59:09 INFO  Log:22 - size entered
+2022-06-25 17:59:09 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:59:11 INFO  Log:22 - added to cart
+2022-06-25 17:59:11 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:59:13 INFO  Log:22 - order page opened 
+2022-06-25 17:59:13 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:59:16 INFO  Log:22 - login page opened
+2022-06-25 17:59:16 INFO  Log:22 -  enters the  email of new customer
+2022-06-25 17:59:16 INFO  Log:22 -  accountCreationPage opened 
+2022-06-25 17:59:16 INFO  Log:22 - enters all details of new customer 
+2022-06-25 17:59:41 INFO  Log:11 - ================================::>>  EndToEndTestForNewCustomers  <<::  TEST START=========================================
+2022-06-25 17:59:41 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 17:59:44 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 17:59:44 INFO  Log:22 - selects the product needed
+2022-06-25 17:59:47 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 17:59:47 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 17:59:47 INFO  Log:22 - quantity entered
+2022-06-25 17:59:47 INFO  Log:22 - enters size
+2022-06-25 17:59:47 INFO  Log:22 - size entered
+2022-06-25 17:59:47 INFO  Log:22 - clicks on add to cart
+2022-06-25 17:59:50 INFO  Log:22 - added to cart
+2022-06-25 17:59:50 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:59:54 INFO  Log:22 - order page opened 
+2022-06-25 17:59:54 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 17:59:59 INFO  Log:22 - login page opened
+2022-06-25 17:59:59 INFO  Log:22 -  enters the  email of new customer
+2022-06-25 17:59:59 INFO  Log:22 -  accountCreationPage opened 
+2022-06-25 17:59:59 INFO  Log:22 - enters all details of new customer 
+2022-06-25 18:00:24 INFO  Log:11 - ================================::>>  EndToEndTestForOldCustomers  <<::  TEST START=========================================
+2022-06-25 18:00:24 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 18:00:28 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 18:00:28 INFO  Log:22 - selects the product needed
+2022-06-25 18:00:32 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 18:00:32 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 18:00:32 INFO  Log:22 - quantity entered
+2022-06-25 18:00:32 INFO  Log:22 - enters size
+2022-06-25 18:00:32 INFO  Log:22 - size entered
+2022-06-25 18:00:32 INFO  Log:22 - clicks on add to cart
+2022-06-25 18:00:35 INFO  Log:22 - added to cart
+2022-06-25 18:00:35 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:00:38 INFO  Log:22 - order page opened 
+2022-06-25 18:00:38 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:00:44 INFO  Log:22 - login page opened
+2022-06-25 18:00:44 INFO  Log:22 - enters the username and password 
+2022-06-25 18:00:44 INFO  Log:22 - clicks on login button 
+2022-06-25 18:00:50 INFO  Log:22 -  sucessfully logged in and navigated to address page
+2022-06-25 18:00:50 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:00:52 INFO  Log:22 - shipping page opened
+2022-06-25 18:00:52 INFO  Log:22 - clicks on Check box of shippment page after verifying all the details
+2022-06-25 18:00:52 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:00:54 INFO  Log:22 - payment page opened
+2022-06-25 18:00:54 INFO  Log:22 - clicks on pay by wire method
+2022-06-25 18:00:55 INFO  Log:22 - orderSummary page opened
+2022-06-25 18:00:55 INFO  Log:22 - clicks on Confirm My Order 
+2022-06-25 18:00:58 INFO  Log:22 - orderConfirmation page opened
+2022-06-25 18:00:58 INFO  Log:22 - validating finally whether all the details correct or not in the order confirmation page
+2022-06-25 18:00:58 INFO  Log:22 - Order confirmed 
+2022-06-25 18:00:58 INFO  Log:15 - ================================::>>  EndToEndTestForOldCustomers  <<::  TEST END=========================================
+2022-06-25 18:01:09 INFO  Log:11 - ================================::>>  EndToEndTestForOldCustomers  <<::  TEST START=========================================
+2022-06-25 18:01:09 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 18:01:13 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 18:01:13 INFO  Log:22 - selects the product needed
+2022-06-25 18:01:16 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 18:01:16 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 18:01:16 INFO  Log:22 - quantity entered
+2022-06-25 18:01:16 INFO  Log:22 - enters size
+2022-06-25 18:01:16 INFO  Log:22 - size entered
+2022-06-25 18:01:16 INFO  Log:22 - clicks on add to cart
+2022-06-25 18:01:17 INFO  Log:22 - added to cart
+2022-06-25 18:01:17 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:01:19 INFO  Log:22 - order page opened 
+2022-06-25 18:01:19 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:01:21 INFO  Log:22 - login page opened
+2022-06-25 18:01:21 INFO  Log:22 - enters the username and password 
+2022-06-25 18:01:21 INFO  Log:22 - clicks on login button 
+2022-06-25 18:01:24 INFO  Log:22 -  sucessfully logged in and navigated to address page
+2022-06-25 18:01:24 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:01:26 INFO  Log:22 - shipping page opened
+2022-06-25 18:01:26 INFO  Log:22 - clicks on Check box of shippment page after verifying all the details
+2022-06-25 18:01:26 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:01:28 INFO  Log:22 - payment page opened
+2022-06-25 18:01:28 INFO  Log:22 - clicks on pay by wire method
+2022-06-25 18:01:30 INFO  Log:22 - orderSummary page opened
+2022-06-25 18:01:30 INFO  Log:22 - clicks on Confirm My Order 
+2022-06-25 18:01:32 INFO  Log:22 - orderConfirmation page opened
+2022-06-25 18:01:32 INFO  Log:22 - validating finally whether all the details correct or not in the order confirmation page
+2022-06-25 18:01:32 INFO  Log:22 - Order confirmed 
+2022-06-25 18:01:32 INFO  Log:15 - ================================::>>  EndToEndTestForOldCustomers  <<::  TEST END=========================================
+2022-06-25 18:01:44 INFO  Log:11 - ================================::>>  EndToEndTestForOldCustomers  <<::  TEST START=========================================
+2022-06-25 18:01:44 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 18:01:49 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 18:01:49 INFO  Log:22 - selects the product needed
+2022-06-25 18:01:52 INFO  Log:22 - add to cart page opened and product selected
+2022-06-25 18:01:52 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-25 18:01:52 INFO  Log:22 - quantity entered
+2022-06-25 18:01:52 INFO  Log:22 - enters size
+2022-06-25 18:01:52 INFO  Log:22 - size entered
+2022-06-25 18:01:52 INFO  Log:22 - clicks on add to cart
+2022-06-25 18:01:53 INFO  Log:22 - added to cart
+2022-06-25 18:01:53 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:01:56 INFO  Log:22 - order page opened 
+2022-06-25 18:01:56 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:01:59 INFO  Log:22 - login page opened
+2022-06-25 18:01:59 INFO  Log:22 - enters the username and password 
+2022-06-25 18:01:59 INFO  Log:22 - clicks on login button 
+2022-06-25 18:02:02 INFO  Log:22 -  sucessfully logged in and navigated to address page
+2022-06-25 18:02:02 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:02:04 INFO  Log:22 - shipping page opened
+2022-06-25 18:02:04 INFO  Log:22 - clicks on Check box of shippment page after verifying all the details
+2022-06-25 18:02:04 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-25 18:02:05 INFO  Log:22 - payment page opened
+2022-06-25 18:02:05 INFO  Log:22 - clicks on pay by wire method
+2022-06-25 18:02:07 INFO  Log:22 - orderSummary page opened
+2022-06-25 18:02:07 INFO  Log:22 - clicks on Confirm My Order 
+2022-06-25 18:02:10 INFO  Log:22 - orderConfirmation page opened
+2022-06-25 18:02:10 INFO  Log:22 - validating finally whether all the details correct or not in the order confirmation page
+2022-06-25 18:02:10 INFO  Log:22 - Order confirmed 
+2022-06-25 18:02:10 INFO  Log:15 - ================================::>>  EndToEndTestForOldCustomers  <<::  TEST END=========================================
+2022-06-25 18:02:21 INFO  Log:11 - ================================::>>  priceTest  <<::  TEST START=========================================
+2022-06-25 18:02:21 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 18:02:24 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 18:02:24 INFO  Log:22 - selects the product needed
+2022-06-25 18:02:27 INFO  Log:22 - add to cart page opened with the selected product
+2022-06-25 18:02:27 INFO  Log:22 - enters quantity
+2022-06-25 18:02:27 INFO  Log:22 - quantity entered
+2022-06-25 18:02:27 INFO  Log:22 - enters size
+2022-06-25 18:02:27 INFO  Log:22 - size entered
+2022-06-25 18:02:27 INFO  Log:22 - clicks on add to cart
+2022-06-25 18:02:29 INFO  Log:22 - product sucessfully added to cart
+2022-06-25 18:02:29 INFO  Log:22 - clicks on proceed to checkout
+2022-06-25 18:02:31 INFO  Log:22 - order page opened 
+2022-06-25 18:02:31 INFO  Log:22 - gets unit price from order page 
+2022-06-25 18:02:31 INFO  Log:22 - gets quantity from order page 
+2022-06-25 18:02:31 INFO  Log:22 - gets shippingcharge price from order page 
+2022-06-25 18:02:31 INFO  Log:22 - gets total_tax price from order page 
+2022-06-25 18:02:31 INFO  Log:22 - gets Total price displayed from order page 
+2022-06-25 18:02:31 INFO  Log:22 - caluculates the expectedTotalprice 
+2022-06-25 18:02:31 INFO  Log:22 - validating the whether Totalprice displayed & expectedTotalprice is correct or wrong 
+2022-06-25 18:02:31 INFO  Log:22 - Totalprice displayed & expectedTotalprice are same 
+2022-06-25 18:02:31 INFO  Log:15 - ================================::>>  priceTest  <<::  TEST END=========================================
+2022-06-25 18:02:41 INFO  Log:11 - ================================::>>  AddtocartSucessTest  <<::  TEST START=========================================
+2022-06-25 18:02:41 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 18:02:46 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 18:02:46 INFO  Log:22 - selects the product needed
+2022-06-25 18:02:50 INFO  Log:22 - add to cart page opened with the selected product
+2022-06-25 18:02:50 INFO  Log:22 - enters quantity
+2022-06-25 18:02:50 INFO  Log:22 - quantity entered
+2022-06-25 18:02:50 INFO  Log:22 - enters size
+2022-06-25 18:02:50 INFO  Log:22 - size entered
+2022-06-25 18:02:50 INFO  Log:22 - clicks on add to cart
+2022-06-25 18:02:51 INFO  Log:22 - validating the whether product added to cart or not 
+2022-06-25 18:02:52 INFO  Log:22 - product sucessfully added to cart
+2022-06-25 18:02:52 INFO  Log:15 - ================================::>>  AddtocartSucessTest  <<::  TEST END=========================================
+2022-06-25 18:03:02 INFO  Log:11 - ================================::>>  AddtocartSucessTest  <<::  TEST START=========================================
+2022-06-25 18:03:02 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 18:03:09 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 18:03:09 INFO  Log:22 - selects the product needed
+2022-06-25 18:03:12 INFO  Log:22 - add to cart page opened with the selected product
+2022-06-25 18:03:12 INFO  Log:22 - enters quantity
+2022-06-25 18:03:12 INFO  Log:22 - quantity entered
+2022-06-25 18:03:12 INFO  Log:22 - enters size
+2022-06-25 18:03:12 INFO  Log:22 - size entered
+2022-06-25 18:03:12 INFO  Log:22 - clicks on add to cart
+2022-06-25 18:03:13 INFO  Log:22 - validating the whether product added to cart or not 
+2022-06-25 18:03:13 INFO  Log:22 - product sucessfully added to cart
+2022-06-25 18:03:13 INFO  Log:15 - ================================::>>  AddtocartSucessTest  <<::  TEST END=========================================
+2022-06-25 18:03:23 INFO  Log:11 - ================================::>>  AddtocartSucessTest  <<::  TEST START=========================================
+2022-06-25 18:03:23 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 18:03:27 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 18:03:27 INFO  Log:22 - selects the product needed
+2022-06-25 18:03:30 INFO  Log:22 - add to cart page opened with the selected product
+2022-06-25 18:03:30 INFO  Log:22 - enters quantity
+2022-06-25 18:03:30 INFO  Log:22 - quantity entered
+2022-06-25 18:03:30 INFO  Log:22 - enters size
+2022-06-25 18:03:30 INFO  Log:22 - size entered
+2022-06-25 18:03:30 INFO  Log:22 - clicks on add to cart
+2022-06-25 18:03:32 INFO  Log:22 - validating the whether product added to cart or not 
+2022-06-25 18:03:32 INFO  Log:22 - product sucessfully added to cart
+2022-06-25 18:03:32 INFO  Log:15 - ================================::>>  AddtocartSucessTest  <<::  TEST END=========================================
+2022-06-25 18:03:43 INFO  Log:11 - ================================::>>  AddtocartTest  <<::  TEST START=========================================
+2022-06-25 18:03:43 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 18:03:47 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 18:03:47 INFO  Log:22 - selects the product needed
+2022-06-25 18:03:52 INFO  Log:22 - validating the whether add to cart page opened or not 
+2022-06-25 18:03:52 INFO  Log:22 - add to cart page opened with the selected product 
+2022-06-25 18:03:52 INFO  Log:15 - ================================::>>  AddtocartTest  <<::  TEST END=========================================
+2022-06-25 18:04:02 INFO  Log:11 - ================================::>>  AddtocartTest  <<::  TEST START=========================================
+2022-06-25 18:04:02 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 18:04:08 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 18:04:08 INFO  Log:22 - selects the product needed
+2022-06-25 18:04:10 INFO  Log:22 - validating the whether add to cart page opened or not 
+2022-06-25 18:04:10 INFO  Log:22 - add to cart page opened with the selected product 
+2022-06-25 18:04:10 INFO  Log:15 - ================================::>>  AddtocartTest  <<::  TEST END=========================================
+2022-06-25 18:04:20 INFO  Log:11 - ================================::>>  AddtocartTest  <<::  TEST START=========================================
+2022-06-25 18:04:20 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-25 18:04:24 INFO  Log:22 - search page with different type of same products opened
+2022-06-25 18:04:24 INFO  Log:22 - selects the product needed
+2022-06-25 18:04:27 INFO  Log:22 - validating the whether add to cart page opened or not 
+2022-06-25 18:04:27 INFO  Log:22 - add to cart page opened with the selected product 
+2022-06-25 18:04:27 INFO  Log:15 - ================================::>>  AddtocartTest  <<::  TEST END=========================================
+2022-06-25 18:04:27 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2022-06-25 18:04:27 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2022-06-25 18:04:27 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2022-06-25 18:04:27 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2022-06-25 18:04:27 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2022-06-25 18:04:27 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2022-06-25 18:04:27 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2022-06-25 18:04:27 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2022-06-25 18:04:27 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2022-06-25 18:04:27 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2022-06-25 18:04:27 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2022-06-25 18:04:27 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2022-06-25 18:04:27 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:27 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:28 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-25 18:04:28 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2022-06-25 18:04:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2022-06-25 18:04:28 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2022-06-25 18:04:28 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2022-06-25 18:04:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2022-06-25 18:04:28 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2022-06-25 18:04:28 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2022-06-25 18:04:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2022-06-25 18:04:28 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2022-06-25 18:04:28 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2022-06-25 18:04:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2022-06-25 18:04:28 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2022-06-25 18:04:28 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-25 18:04:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2022-06-25 18:04:28 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2022-06-25 18:04:28 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2022-06-27 11:41:19 INFO  Log:22 - this is before suite method
+2022-06-27 11:41:24 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-27 11:41:24 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-27 11:41:24 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-27 11:41:24 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@41eb94bc
+2022-06-27 11:41:24 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-27 11:41:24 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-27 11:41:24 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-27 11:41:24 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-27 11:41:24 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-27 11:41:24 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-27 11:41:24 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-27 11:41:24 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-27 11:41:24 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-27 11:41:24 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-27 11:41:24 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-27 11:41:24 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-27 11:41:24 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-27 11:41:24 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-27 11:41:24 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-27 11:41:24 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-27 11:41:24 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-27 11:41:24 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-27 11:41:24 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-27 11:41:24 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-27 11:41:24 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-27 11:41:24 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-27 11:41:24 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-27 11:41:24 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-27 11:41:24 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-27 11:41:24 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-27 11:41:24 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-27 11:41:24 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-27 11:41:24 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-27 11:41:24 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-27 11:41:28 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 7360 (auto-detected)
+2022-06-27 11:41:28 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-27 11:41:28 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-27 11:41:28 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-27 11:41:28 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-27 11:41:28 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-27 11:41:28 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-27 11:41:28 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-27 11:41:28 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@d37cf7c
+2022-06-27 11:41:28 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-27 11:41:28 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-27 11:41:28 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-27 11:41:28 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-27 11:41:30 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-27 11:41:30 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x545d6945ffca3d93
+2022-06-27 11:41:38 INFO  Log:11 - ================================::>>  verifylogin  <<::  TEST START=========================================
+2022-06-27 11:41:38 INFO  Log:22 - clicks on signin of index page
+2022-06-27 11:41:46 INFO  Log:22 - login page opened
+2022-06-27 11:41:46 INFO  Log:22 - enters the username and password 
+2022-06-27 11:41:46 INFO  Log:22 - clicks on login button 
+2022-06-27 11:41:49 INFO  Log:22 - validating the whether login is success or not 
+2022-06-27 11:41:49 INFO  Log:22 -  sucessfully logged in and navigated to Home page
+2022-06-27 11:41:49 INFO  Log:15 - ================================::>>  verifylogin  <<::  TEST END=========================================
+2022-06-27 11:41:59 INFO  Log:11 - ================================::>>  verifyTitle  <<::  TEST START=========================================
+2022-06-27 11:41:59 INFO  Log:22 - Index page opened
+2022-06-27 11:41:59 INFO  Log:22 - validating the whether Title displayed correct or wrong 
+2022-06-27 11:41:59 INFO  Log:22 - Title displayed correctly
+2022-06-27 11:41:59 INFO  Log:15 - ================================::>>  verifyTitle  <<::  TEST END=========================================
+2022-06-27 11:42:08 INFO  Log:11 - ================================::>>  verifylogo  <<::  TEST START=========================================
+2022-06-27 11:42:08 INFO  Log:22 - Index page opened
+2022-06-27 11:42:08 INFO  Log:22 - validating the whether MyStoreLogo displayed or not 
+2022-06-27 11:42:08 INFO  Log:22 - MyStoreLogo displayed 
+2022-06-27 11:42:08 INFO  Log:15 - ================================::>>  verifylogo  <<::  TEST END=========================================
+2022-06-27 11:42:19 INFO  Log:11 - ================================::>>  OrderHistoryTest  <<::  TEST START=========================================
+2022-06-27 11:42:19 INFO  Log:22 - clicks on signin of index page
+2022-06-27 11:42:28 INFO  Log:22 - login page opened
+2022-06-27 11:42:28 INFO  Log:22 - enters the username and password 
+2022-06-27 11:42:28 INFO  Log:22 - clicks on login button 
+2022-06-27 11:42:35 INFO  Log:22 - Home page opened
+2022-06-27 11:42:35 INFO  Log:22 - validating the whether OrderHistory displayed or not 
+2022-06-27 11:42:35 INFO  Log:22 - OrderHistory displayed sucessfully 
+2022-06-27 11:42:35 INFO  Log:15 - ================================::>>  OrderHistoryTest  <<::  TEST END=========================================
+2022-06-27 11:42:55 INFO  Log:11 - ================================::>>  WishlistTest  <<::  TEST START=========================================
+2022-06-27 11:42:55 INFO  Log:22 - clicks on sign of index page
+2022-06-27 11:43:03 INFO  Log:22 - login page opened
+2022-06-27 11:43:03 INFO  Log:22 - enters the username and password 
+2022-06-27 11:43:03 INFO  Log:22 - clicks on login button 
+2022-06-27 11:43:05 INFO  Log:22 - Home page opened
+2022-06-27 11:43:05 INFO  Log:22 - validating the whether MyWhishLists displayed or not 
+2022-06-27 11:43:05 INFO  Log:22 - MyWhishLists displayed sucessfully 
+2022-06-27 11:43:05 INFO  Log:15 - ================================::>>  WishlistTest  <<::  TEST END=========================================
+2022-06-27 11:43:18 INFO  Log:11 - ================================::>>  productAvailabilityTest  <<::  TEST START=========================================
+2022-06-27 11:43:18 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-27 11:43:22 INFO  Log:22 - validating  whether type of product is diplayed or not  
+2022-06-27 11:43:22 INFO  Log:22 - search page with different type of same products opened
+2022-06-27 11:43:22 INFO  Log:15 - ================================::>>  productAvailabilityTest  <<::  TEST END=========================================
+2022-06-27 11:43:23 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2022-06-27 11:43:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2022-06-27 11:43:23 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2022-06-27 11:43:23 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2022-06-27 11:43:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2022-06-27 11:43:23 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2022-06-27 11:43:23 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2022-06-27 11:43:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2022-06-27 11:43:23 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2022-06-27 11:43:23 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2022-06-27 11:43:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2022-06-27 11:43:23 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2022-06-27 11:43:23 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2022-06-27 11:43:23 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2022-06-27 11:43:23 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2022-06-27 11:43:24 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2022-06-27 11:43:24 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2022-06-27 11:43:24 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:43:24 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:43:24 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:43:24 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:43:24 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:43:24 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2022-06-27 11:43:24 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2022-06-27 11:43:24 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2022-06-27 11:43:24 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2022-06-27 11:43:24 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2022-06-27 11:43:24 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2022-06-27 11:43:24 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2022-06-27 11:43:24 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2022-06-27 11:43:24 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2022-06-27 11:43:24 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2022-06-27 11:43:24 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2022-06-27 11:44:15 INFO  Log:22 - this is before suite method
+2022-06-27 11:44:16 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-27 11:44:16 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-27 11:44:16 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-27 11:44:16 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@68577ba8
+2022-06-27 11:44:16 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-27 11:44:16 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-27 11:44:16 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-27 11:44:16 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-27 11:44:16 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-27 11:44:16 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-27 11:44:16 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-27 11:44:16 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-27 11:44:16 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-27 11:44:16 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-27 11:44:16 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-27 11:44:16 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-27 11:44:16 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-27 11:44:16 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-27 11:44:16 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-27 11:44:16 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-27 11:44:16 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-27 11:44:16 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-27 11:44:16 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-27 11:44:16 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-27 11:44:16 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-27 11:44:16 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-27 11:44:16 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-27 11:44:16 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-27 11:44:16 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-27 11:44:16 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-27 11:44:16 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-27 11:44:16 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-27 11:44:16 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-27 11:44:16 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-27 11:44:18 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 19516 (auto-detected)
+2022-06-27 11:44:18 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-27 11:44:18 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-27 11:44:18 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-27 11:44:18 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-27 11:44:18 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-27 11:44:18 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-27 11:44:18 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-27 11:44:18 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@13572b0f
+2022-06-27 11:44:18 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-27 11:44:18 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-27 11:44:18 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-27 11:44:18 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-27 11:44:22 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-27 11:44:22 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x901ef7fbecbca6be
+2022-06-27 11:44:29 INFO  Log:11 - ================================::>>  verifylogin  <<::  TEST START=========================================
+2022-06-27 11:44:29 INFO  Log:22 - clicks on signin of index page
+2022-06-27 11:44:36 INFO  Log:22 - login page opened
+2022-06-27 11:44:36 INFO  Log:22 - enters the username and password 
+2022-06-27 11:44:36 INFO  Log:22 - clicks on login button 
+2022-06-27 11:44:40 INFO  Log:22 - validating the whether login is success or not 
+2022-06-27 11:44:40 INFO  Log:22 -  sucessfully logged in and navigated to Home page
+2022-06-27 11:44:40 INFO  Log:15 - ================================::>>  verifylogin  <<::  TEST END=========================================
+2022-06-27 11:44:49 INFO  Log:11 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST START=========================================
+2022-06-27 11:44:50 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-27 11:44:54 INFO  Log:22 - search page with different type of same products opened
+2022-06-27 11:44:54 INFO  Log:22 - selects the product needed
+2022-06-27 11:44:57 INFO  Log:22 - add to cart page opened and product selected
+2022-06-27 11:44:57 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-27 11:44:57 INFO  Log:22 - quantity entered
+2022-06-27 11:44:57 INFO  Log:22 - enters size
+2022-06-27 11:44:59 INFO  Log:22 - size entered
+2022-06-27 11:44:59 INFO  Log:22 - clicks on add to cart
+2022-06-27 11:45:00 INFO  Log:22 - added to cart
+2022-06-27 11:45:00 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-27 11:45:02 INFO  Log:22 - order page opened 
+2022-06-27 11:45:02 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-27 11:45:04 INFO  Log:22 - login page opened
+2022-06-27 11:45:04 INFO  Log:22 -  enters the  email of new customer
+2022-06-27 11:45:05 INFO  Log:22 -  accountCreationPage opened 
+2022-06-27 11:45:05 INFO  Log:22 - validating the accountCreationPage 
+2022-06-27 11:45:06 INFO  Log:22 - Succsssfully landed into account detils 
+2022-06-27 11:45:06 INFO  Log:22 - enters all details of new customer 
+2022-06-27 11:45:55 INFO  Log:22 -  addressPage opened after successful registration of new customer
+2022-06-27 11:45:55 INFO  Log:15 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST END=========================================
+2022-06-27 11:46:07 INFO  Log:11 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST START=========================================
+2022-06-27 11:46:07 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-27 11:46:11 INFO  Log:22 - search page with different type of same products opened
+2022-06-27 11:46:11 INFO  Log:22 - selects the product needed
+2022-06-27 11:46:13 INFO  Log:22 - add to cart page opened and product selected
+2022-06-27 11:46:13 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-27 11:46:13 INFO  Log:22 - quantity entered
+2022-06-27 11:46:13 INFO  Log:22 - enters size
+2022-06-27 11:46:13 INFO  Log:22 - size entered
+2022-06-27 11:46:13 INFO  Log:22 - clicks on add to cart
+2022-06-27 11:46:15 INFO  Log:22 - added to cart
+2022-06-27 11:46:15 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-27 11:46:17 INFO  Log:22 - order page opened 
+2022-06-27 11:46:17 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-27 11:46:21 INFO  Log:22 - login page opened
+2022-06-27 11:46:21 INFO  Log:22 -  enters the  email of new customer
+2022-06-27 11:46:21 INFO  Log:22 -  accountCreationPage opened 
+2022-06-27 11:46:21 INFO  Log:22 - validating the accountCreationPage 
+2022-06-27 11:46:23 INFO  Log:22 - Succsssfully landed into account detils 
+2022-06-27 11:46:23 INFO  Log:22 - enters all details of new customer 
+2022-06-27 11:47:13 INFO  Log:22 -  addressPage opened after successful registration of new customer
+2022-06-27 11:47:13 INFO  Log:15 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST END=========================================
+2022-06-27 11:47:26 INFO  Log:11 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST START=========================================
+2022-06-27 11:47:26 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-27 11:47:31 INFO  Log:22 - search page with different type of same products opened
+2022-06-27 11:47:31 INFO  Log:22 - selects the product needed
+2022-06-27 11:47:35 INFO  Log:22 - add to cart page opened and product selected
+2022-06-27 11:47:35 INFO  Log:22 - add to cart page opened and enters quantity
+2022-06-27 11:47:35 INFO  Log:22 - quantity entered
+2022-06-27 11:47:35 INFO  Log:22 - enters size
+2022-06-27 11:47:35 INFO  Log:22 - size entered
+2022-06-27 11:47:35 INFO  Log:22 - clicks on add to cart
+2022-06-27 11:47:38 INFO  Log:22 - added to cart
+2022-06-27 11:47:38 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-27 11:47:42 INFO  Log:22 - order page opened 
+2022-06-27 11:47:42 INFO  Log:22 - clicks on proceed to checkout button
+2022-06-27 11:47:46 INFO  Log:22 - login page opened
+2022-06-27 11:47:46 INFO  Log:22 -  enters the  email of new customer
+2022-06-27 11:47:46 INFO  Log:22 -  accountCreationPage opened 
+2022-06-27 11:47:46 INFO  Log:22 - validating the accountCreationPage 
+2022-06-27 11:47:50 INFO  Log:22 - Succsssfully landed into account detils 
+2022-06-27 11:47:50 INFO  Log:22 - enters all details of new customer 
+2022-06-27 11:48:38 INFO  Log:22 -  addressPage opened after successful registration of new customer
+2022-06-27 11:48:38 INFO  Log:15 - ================================::>>  createAccountAfterAddingToCartTest  <<::  TEST END=========================================
+2022-06-27 11:48:56 INFO  Log:11 - ================================::>>  createAccountTest  <<::  TEST START=========================================
+2022-06-27 11:48:56 INFO  Log:22 - clicks on sign in of index page
+2022-06-27 11:49:01 INFO  Log:22 - login page opened
+2022-06-27 11:49:01 INFO  Log:22 -  enters the  email of new customer
+2022-06-27 11:49:01 INFO  Log:22 -  accountCreationPage opened 
+2022-06-27 11:49:01 INFO  Log:22 - validating the accountCreationPage 
+2022-06-27 11:49:04 INFO  Log:22 - Succsssfully landed into account detils 
+2022-06-27 11:49:04 INFO  Log:22 - enters all details of new customer 
+2022-06-27 11:49:07 INFO  Log:22 -  homePage opened after successful registration of new customer
+2022-06-27 11:49:07 INFO  Log:15 - ================================::>>  createAccountTest  <<::  TEST END=========================================
+2022-06-27 11:49:18 INFO  Log:11 - ================================::>>  AddtocartSucessTest  <<::  TEST START=========================================
+2022-06-27 11:49:18 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-27 11:49:23 INFO  Log:22 - search page with different type of same products opened
+2022-06-27 11:49:23 INFO  Log:22 - selects the product needed
+2022-06-27 11:49:29 INFO  Log:22 - add to cart page opened with the selected product
+2022-06-27 11:49:29 INFO  Log:22 - enters quantity
+2022-06-27 11:49:29 INFO  Log:22 - quantity entered
+2022-06-27 11:49:29 INFO  Log:22 - enters size
+2022-06-27 11:49:29 INFO  Log:22 - size entered
+2022-06-27 11:49:29 INFO  Log:22 - clicks on add to cart
+2022-06-27 11:49:32 INFO  Log:22 - validating the whether product added to cart or not 
+2022-06-27 11:49:33 INFO  Log:22 - product sucessfully added to cart
+2022-06-27 11:49:33 INFO  Log:15 - ================================::>>  AddtocartSucessTest  <<::  TEST END=========================================
+2022-06-27 11:50:11 INFO  Log:11 - ================================::>>  AddtocartSucessTest  <<::  TEST START=========================================
+2022-06-27 11:50:11 INFO  Log:22 - enters the product name in the search box of index page
+2022-06-27 11:50:16 INFO  Log:22 - search page with different type of same products opened
+2022-06-27 11:50:16 INFO  Log:22 - selects the product needed
+2022-06-27 11:50:22 INFO  Log:22 - add to cart page opened with the selected product
+2022-06-27 11:50:22 INFO  Log:22 - enters quantity
+2022-06-27 11:50:22 INFO  Log:22 - quantity entered
+2022-06-27 11:50:22 INFO  Log:22 - enters size
+2022-06-27 11:50:22 INFO  Log:22 - size entered
+2022-06-27 11:50:22 INFO  Log:22 - clicks on add to cart
+2022-06-27 11:50:23 INFO  Log:22 - validating the whether product added to cart or not 
+2022-06-27 11:50:23 INFO  Log:22 - product sucessfully added to cart
+2022-06-27 11:50:23 INFO  Log:15 - ================================::>>  AddtocartSucessTest  <<::  TEST END=========================================
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2022-06-27 11:51:13 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:51:13 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:51:13 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:51:13 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:51:13 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:51:13 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:51:13 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:51:13 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:51:13 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:51:13 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2022-06-27 11:51:13 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2022-06-27 11:51:13 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2022-06-27 11:51:13 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2022-06-27 11:55:54 INFO  Log:22 - this is before suite method
+2022-06-27 11:55:55 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-27 11:55:55 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-27 11:55:55 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-27 11:55:55 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@47fbc56
+2022-06-27 11:55:55 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-27 11:55:55 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-27 11:55:55 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-27 11:55:55 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-27 11:55:55 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-27 11:55:55 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-27 11:55:55 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-27 11:55:55 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-27 11:55:55 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-27 11:55:55 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-27 11:55:55 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-27 11:55:55 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-27 11:55:55 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-27 11:55:55 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-27 11:55:55 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-27 11:55:55 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-27 11:55:55 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-27 11:55:55 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-27 11:55:55 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-27 11:55:55 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-27 11:55:55 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-27 11:55:55 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-27 11:55:55 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-27 11:55:55 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-27 11:55:55 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-27 11:55:55 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-27 11:55:55 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-27 11:55:55 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-27 11:55:55 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-27 11:55:55 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-27 11:55:56 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 13184 (auto-detected)
+2022-06-27 11:55:56 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-27 11:55:56 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-27 11:55:56 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-27 11:55:56 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-27 11:55:56 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-27 11:55:56 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-27 11:55:56 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-27 11:55:56 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@54ed320f
+2022-06-27 11:55:56 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-27 11:55:56 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-27 11:55:56 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-27 11:55:56 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-27 11:55:59 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-27 11:55:59 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x680ef9066d97b028
+2022-06-27 11:58:57 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:57 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2022-06-27 11:58:57 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2022-06-27 11:58:57 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2022-06-27 11:58:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2022-06-27 11:58:58 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2022-06-27 11:58:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2022-06-27 11:58:58 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2022-06-27 11:58:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2022-06-27 11:58:58 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2022-06-27 11:58:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2022-06-27 11:58:58 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2022-06-27 11:58:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2022-06-27 11:58:58 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 11:58:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2022-06-27 11:58:58 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2022-06-27 11:58:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2022-06-27 11:58:58 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2022-06-27 11:58:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2022-06-27 11:58:58 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2022-06-27 11:58:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2022-06-27 11:58:58 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2022-06-27 11:58:58 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2022-06-27 11:58:58 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2022-06-27 11:58:58 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2022-06-27 12:17:06 INFO  Log:22 - this is before suite method
+2022-06-27 12:17:07 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-27 12:17:07 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-27 12:17:07 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-27 12:17:07 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@33d53216
+2022-06-27 12:17:07 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-27 12:17:07 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-27 12:17:07 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-27 12:17:07 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-27 12:17:07 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-27 12:17:07 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-27 12:17:07 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-27 12:17:07 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-27 12:17:07 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-27 12:17:07 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-27 12:17:07 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-27 12:17:07 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-27 12:17:07 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-27 12:17:07 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-27 12:17:07 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-27 12:17:07 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-27 12:17:07 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-27 12:17:07 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-27 12:17:07 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-27 12:17:07 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-27 12:17:07 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-27 12:17:07 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-27 12:17:07 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-27 12:17:07 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-27 12:17:07 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-27 12:17:07 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-27 12:17:07 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-27 12:17:07 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-27 12:17:07 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-27 12:17:07 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-27 12:17:21 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 16588 (auto-detected)
+2022-06-27 12:17:21 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-27 12:17:21 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-27 12:17:21 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-27 12:17:21 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-27 12:17:21 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-27 12:17:21 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-27 12:17:21 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-27 12:17:21 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@54ed320f
+2022-06-27 12:17:21 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-27 12:17:21 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-27 12:17:21 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-27 12:17:21 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-27 12:18:05 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-27 12:18:05 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x0a97bf263fbcead5
+2022-06-27 12:22:10 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-index.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index_en.ftl"): Not found
+2022-06-27 12:22:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-index.ftl"): Found
+2022-06-27 12:22:10 DEBUG cache:45 - Loading template for "v3html/v3-html-index.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-index.ftl"
+2022-06-27 12:22:10 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-head.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head_en.ftl"): Not found
+2022-06-27 12:22:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-head.ftl"): Found
+2022-06-27 12:22:10 DEBUG cache:45 - Loading template for "v3html/v3-html-head.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-head.ftl"
+2022-06-27 12:22:10 DEBUG cache:45 - Couldn't find template in cache for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav_en.ftl"): Not found
+2022-06-27 12:22:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/v3-html-nav.ftl"): Found
+2022-06-27 12:22:10 DEBUG cache:45 - Loading template for "v3html/v3-html-nav.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/v3-html-nav.ftl"
+2022-06-27 12:22:10 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view_en.ftl"): Not found
+2022-06-27 12:22:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view.ftl"): Found
+2022-06-27 12:22:10 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view.ftl"
+2022-06-27 12:22:10 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts_en.ftl"): Not found
+2022-06-27 12:22:10 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-test-view-charts.ftl"): Found
+2022-06-27 12:22:10 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-test-view-charts.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-test-view-charts.ftl"
+2022-06-27 12:22:11 DEBUG cache:45 - Couldn't find template in cache for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard_en.ftl"): Not found
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/test-view/v3-html-standard.ftl"): Found
+2022-06-27 12:22:11 DEBUG cache:45 - Loading template for "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/test-view/v3-html-standard.ftl"
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - "v3html/test-view/v3-html-standard.ftl"("en", UTF-8, parsed) cached copy not yet stale; using cached.
+2022-06-27 12:22:11 DEBUG cache:45 - Couldn't find template in cache for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view_en.ftl"): Not found
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/category-view/v3-html-category-view.ftl"): Found
+2022-06-27 12:22:11 DEBUG cache:45 - Loading template for "v3html/category-view/v3-html-category-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/category-view/v3-html-category-view.ftl"
+2022-06-27 12:22:11 DEBUG cache:45 - Couldn't find template in cache for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view_en.ftl"): Not found
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/exception-view/v3-html-exception-view.ftl"): Found
+2022-06-27 12:22:11 DEBUG cache:45 - Loading template for "v3html/exception-view/v3-html-exception-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/exception-view/v3-html-exception-view.ftl"
+2022-06-27 12:22:11 DEBUG cache:45 - Couldn't find template in cache for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view_en.ftl"): Not found
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/author-view/v3-html-author-view.ftl"): Found
+2022-06-27 12:22:11 DEBUG cache:45 - Loading template for "v3html/author-view/v3-html-author-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/author-view/v3-html-author-view.ftl"
+2022-06-27 12:22:11 DEBUG cache:45 - Couldn't find template in cache for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view_en.ftl"): Not found
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/dashboard-view/v3-html-dashboard-view.ftl"): Found
+2022-06-27 12:22:11 DEBUG cache:45 - Loading template for "v3html/dashboard-view/v3-html-dashboard-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/dashboard-view/v3-html-dashboard-view.ftl"
+2022-06-27 12:22:11 DEBUG cache:45 - Couldn't find template in cache for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed); will try to load it.
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
+2022-06-27 12:22:11 DEBUG cache:45 - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
+2022-06-27 12:22:11 DEBUG cache:45 - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/C:/Users/ambul/.m2/repository/com/aventstack/extentreports/4.0.6/extentreports-4.0.6.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2022-06-27 12:31:21 INFO  Log:22 - this is before suite method
+2022-06-27 12:31:21 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-27 12:31:21 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-27 12:31:21 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-27 12:31:21 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@31611954
+2022-06-27 12:31:21 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-27 12:31:21 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-27 12:31:21 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-27 12:31:21 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-27 12:31:21 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-27 12:31:21 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-27 12:31:21 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-27 12:31:21 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-27 12:31:21 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-27 12:31:21 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-27 12:31:21 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-27 12:31:21 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-27 12:31:21 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-27 12:31:21 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-27 12:31:21 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-27 12:31:21 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-27 12:31:21 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-27 12:31:21 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-27 12:31:21 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-27 12:31:21 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-27 12:31:21 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-27 12:31:21 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-27 12:31:21 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-27 12:31:21 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-27 12:31:21 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-27 12:31:21 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-27 12:31:22 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-27 12:31:22 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-27 12:31:22 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-27 12:31:22 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-27 12:31:33 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 16536 (auto-detected)
+2022-06-27 12:31:33 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-27 12:31:33 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-27 12:31:33 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-27 12:31:33 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-27 12:31:33 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-27 12:31:33 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-27 12:31:33 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-27 12:31:33 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7e108b3e
+2022-06-27 12:31:33 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-27 12:31:33 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-27 12:31:33 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-27 12:31:33 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-27 12:32:04 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-27 12:32:04 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0x81314c2261e217bc
+2022-06-27 12:34:14 INFO  Log:22 - this is before suite method
+2022-06-27 12:34:15 DEBUG InternalLoggerFactory:89 - Using Log4J as the default logging framework
+2022-06-27 12:34:15 DEBUG ResourceLeakDetector:129 - -Dio.netty.leakDetection.level: simple
+2022-06-27 12:34:15 DEBUG ResourceLeakDetector:130 - -Dio.netty.leakDetection.targetRecords: 4
+2022-06-27 12:34:15 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6a48a7f3
+2022-06-27 12:34:15 DEBUG PlatformDependent0:460 - -Dio.netty.noUnsafe: false
+2022-06-27 12:34:15 DEBUG PlatformDependent0:954 - Java version: 17
+2022-06-27 12:34:15 DEBUG PlatformDependent0:135 - sun.misc.Unsafe.theUnsafe: available
+2022-06-27 12:34:15 DEBUG PlatformDependent0:159 - sun.misc.Unsafe.copyMemory: available
+2022-06-27 12:34:15 DEBUG PlatformDependent0:202 - java.nio.Buffer.address: available
+2022-06-27 12:34:15 DEBUG PlatformDependent0:285 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+2022-06-27 12:34:15 DEBUG PlatformDependent0:350 - java.nio.Bits.unaligned: available, true
+2022-06-27 12:34:15 DEBUG PlatformDependent0:417 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9f70c54
+2022-06-27 12:34:15 DEBUG PlatformDependent0:446 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2022-06-27 12:34:15 DEBUG PlatformDependent:1116 - sun.misc.Unsafe: available
+2022-06-27 12:34:15 DEBUG PlatformDependent:1227 - maxDirectMemory: 2059403264 bytes (maybe)
+2022-06-27 12:34:15 DEBUG PlatformDependent:1246 - -Dio.netty.tmpdir: C:\Users\ambul\AppData\Local\Temp (java.io.tmpdir)
+2022-06-27 12:34:15 DEBUG PlatformDependent:1325 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2022-06-27 12:34:15 DEBUG PlatformDependent:1076 - Platform: Windows
+2022-06-27 12:34:15 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2022-06-27 12:34:15 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2022-06-27 12:34:15 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2022-06-27 12:34:15 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2022-06-27 12:34:15 DEBUG PlatformDependent:967 - org.jctools-core.MpscChunkedArrayQueue: available
+2022-06-27 12:34:15 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2022-06-27 12:34:15 DEBUG InternalThreadLocalMap:89 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2022-06-27 12:34:15 DEBUG JdkSslContext:97 - Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+2022-06-27 12:34:15 DEBUG JdkSslContext:98 - Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+2022-06-27 12:34:15 DEBUG MultithreadEventLoopGroup:44 - -Dio.netty.eventLoopThreads: 16
+2022-06-27 12:34:15 DEBUG NioEventLoop:109 - -Dio.netty.noKeySetOptimization: false
+2022-06-27 12:34:15 DEBUG NioEventLoop:110 - -Dio.netty.selectorAutoRebuildThreshold: 512
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:157 - -Dio.netty.allocator.numHeapArenas: 16
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:158 - -Dio.netty.allocator.numDirectArenas: 16
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:160 - -Dio.netty.allocator.pageSize: 8192
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:165 - -Dio.netty.allocator.maxOrder: 9
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:169 - -Dio.netty.allocator.chunkSize: 4194304
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:170 - -Dio.netty.allocator.smallCacheSize: 256
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:171 - -Dio.netty.allocator.normalCacheSize: 64
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:172 - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:173 - -Dio.netty.allocator.cacheTrimInterval: 8192
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:174 - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:175 - -Dio.netty.allocator.useCacheForAllThreads: false
+2022-06-27 12:34:16 DEBUG PooledByteBufAllocator:176 - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2022-06-27 12:34:16 DEBUG ByteBufUtil:87 - -Dio.netty.allocator.type: pooled
+2022-06-27 12:34:16 DEBUG ByteBufUtil:96 - -Dio.netty.threadLocalDirectBufferSize: 0
+2022-06-27 12:34:16 DEBUG ByteBufUtil:99 - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2022-06-27 12:34:22 DEBUG DefaultChannelId:79 - -Dio.netty.processId: 16008 (auto-detected)
+2022-06-27 12:34:22 DEBUG NetUtil:136 - -Djava.net.preferIPv4Stack: false
+2022-06-27 12:34:22 DEBUG NetUtil:137 - -Djava.net.preferIPv6Addresses: false
+2022-06-27 12:34:22 DEBUG NetUtilInitializations:129 - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2022-06-27 12:34:22 DEBUG NetUtil:191 - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2022-06-27 12:34:22 DEBUG DefaultChannelId:101 - -Dio.netty.machineId: 38:ba:f8:ff:fe:b9:b2:12 (auto-detected)
+2022-06-27 12:34:22 DEBUG AbstractByteBuf:63 - -Dio.netty.buffer.checkAccessible: true
+2022-06-27 12:34:22 DEBUG AbstractByteBuf:64 - -Dio.netty.buffer.checkBounds: true
+2022-06-27 12:34:22 DEBUG ResourceLeakDetectorFactory:196 - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@3581571e
+2022-06-27 12:34:22 DEBUG Recycler:85 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2022-06-27 12:34:22 DEBUG Recycler:86 - -Dio.netty.recycler.ratio: 8
+2022-06-27 12:34:22 DEBUG Recycler:87 - -Dio.netty.recycler.chunkSize: 32
+2022-06-27 12:34:22 DEBUG Recycler:88 - -Dio.netty.recycler.blocking: false
+2022-06-27 12:35:10 DEBUG Brotli:38 - brotli4j not in the classpath; Brotli support will be unavailable.
+2022-06-27 12:35:10 DEBUG ThreadLocalRandom:214 - -Dio.netty.initialSeedUniquifier: 0xf4d5821ca3777202

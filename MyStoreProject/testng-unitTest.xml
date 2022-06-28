@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <listeners>
+      <listener class-name="com.mystore.utility.ListenerClass"></listener>
+  </listeners>
+  <test thread-count="5" name="TestAll">
+     <parameter name="browserName" value="chrome"></parameter>
+    <classes>
+      <class name="com.mystore.testcases.EndtoEndTest"/>
+      
+    </classes>
+  </test> <!-- TestAll -->
+</suite> <!-- Suite -->
